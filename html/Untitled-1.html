@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Agenda</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    input, button { padding: 8px; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 8px 0; }
+    .done { text-decoration: line-through; color: gray; }
+  </style>
+</head>
+<body>
+  <h1>Minha Agenda</h1>
+  <input id="taskInput" type="text" placeholder="Nova tarefa">
+  <button onclick="addTask()">Adicionar</button>
+  <ul id="taskList"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
